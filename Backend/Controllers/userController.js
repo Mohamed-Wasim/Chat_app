@@ -111,7 +111,7 @@ export const userLogout = async (req, res) => {
 // Get otherUser endPoint
 export const getOtherUsers = async (req, res) => {
   try {
-    console.log(req.id);
+    // Get request id from isAuthenticate
     const loginUserId = req.id;
     // Getting otherUserId
     const otherUser = await userModel
