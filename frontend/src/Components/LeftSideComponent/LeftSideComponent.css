@@ -1,0 +1,33 @@
+.LeftSideComponent{
+    width:30%;
+    height:100vh;
+    background-color:#fff;
+    padding:10px;
+}
+.leftSideBody{
+    /* border:1px solid black; */
+    height:90%;
+}
+.LeftSideContainer{
+    padding:10px 0 8px 8px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.26);
+    color:#5F6F65;
+
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+.leftSideImg{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background-color:#5f6f6575;
+}
+.leftSideFooter{
+    text-align:center;
+    /* border:1px solid black; */
+}
+
+.leftSideSearch{
+    /* border:none; */
+}

@@ -1,0 +1,16 @@
+.signUpContainer{
+    width:450px;
+    /* height:450px; */
+    background-color:#fff;
+    padding:30px;
+    box-shadow:10px 10px 8px  rgba(0, 0, 0, 0.123);
+}
+.signUpInput{
+    margin:0 0 10px 0;
+}
+.signUpButton{
+    margin:10px 0;
+}
+.signUpLink{
+    margin:2px 0;
+}

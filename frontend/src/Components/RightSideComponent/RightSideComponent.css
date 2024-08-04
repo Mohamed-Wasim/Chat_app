@@ -1,0 +1,72 @@
+.rightSideContainer{
+    width:100%;
+    height:100vh;
+    /* border:1px solid black; */
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.rightSideHeader{
+    background-color:#5F6F65;
+    padding:0 0 0 20px;
+    height:80px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.headerContentContainer{
+    display:flex;
+    gap:20px;
+    align-items:center;
+}
+.headerImgContainer{
+    width:45px;
+    height:45px;
+    border-radius: 50px;
+    background-color:white;
+}
+.headerName{
+    color:white;
+    letter-spacing:1.5px;
+}
+.rightSideChatConversation{
+    border:1px solid rebeccapurple;
+    height:78%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.rightSideChatConversation2{
+    /* border:1px solid rebeccapurple; */
+    height:78%;
+    padding:0 0 0 60px;
+}
+.rightSideSendMessage{
+    border:none;
+    border-radius:0;
+    height:60px;
+}
+.rightSideSendMessage:focus{
+    border:none;
+    border-radius:0;
+}
+.rightSideReceivedText{
+    /* border:1px solid black; */
+    width:300px;
+    /* height: 250px; */
+    margin: 20px 0 0 0;
+    padding:10px;
+    border-radius:8px;
+    background-color:white;
+}
+.rightSideSendText{
+    /* border:1px solid black; */
+    width:300px;
+    /* height: 250px; */
+    margin: 20px 0 0 0;
+    padding:10px;
+    border-radius:8px;
+    background-color:white;
+}
